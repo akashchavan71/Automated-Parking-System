@@ -22,13 +22,13 @@ This system provides following features to users
 ## Components
 
 Hardware components
-•	RaspberryPi
-•	IR Sensors
+- RaspberryPi
+- IR Sensors
 
 
 Software components
-•	Android Studio
-•	Android Device to deploy/install the application
+- Android Studio
+- Android Device to deploy/install the application
 
   
  ## Automated-Parking-System
