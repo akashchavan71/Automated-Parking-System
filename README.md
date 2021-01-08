@@ -1,31 +1,35 @@
 # Description
 
-- Automated Parking System is an application used to make a reservation for a particular slot. With the help of the Android application, you can check the availability and do the reservation for a particular slot.
-- Automated Parking System will reduce the amount of time searching for a parking spot with the help of sensors and display the information on the Mobile Application.
-- This application is implemented using RaspberryPi, IR Sensors to collect the data from server and Android to display available parking slots, make the reservation, and check the status of reservation with interactive and appealing GUI.
-- Automated Parking System is a real-time system, multi-client support is implemented for reservation of slot. Also time-out functionality for reserved slot is in place. 
+Automated Parking System is an application developed to automate the reservation process of existing parking systems 
+
+A franchise having multiple Parking Lots at single or multiple places can use our product to make their business automated and wide spread.
+
+This is a real-time system with multi-client support
+
+This system uses RaspberryPi, IR Sensors to collect the data from different parking lots and it provides an Android application where users can check available parking slots, make a reservation, and check the status of their reservation with interactive and appealing GUI.
+
 
 # Features 
 
-- GET - Get the current IP address of the device.
-- IP Address - Enter the IP address of the server to connect (used for data transmission) 
-- PORT - Enter the PORT number where the server is listening (used for data transmission)    
-- CONNECT - Once you enter valid IP and PORT client will connect to Server and request for Status of the available slot
-- Parking Slots - Based on the availability of the slots Button 1,2,3,4 will be enabled or disabled 
-- Based on available slot select the parking slot number and enter REQUEST
-- REQUEST - To make the reservation of the slot, once you request slot, a response will displayed below.
-- REFRESH - To update the available parking slots
+This system provides following features to users
 
-## Requirements
+-	Check the available parking slots
+-	Pre Book Parking slot for a given date & time
+-	Cancel Booking
+-	Time-Out Functionality in place. If the user doesn’t arrive at slot his/her booking gets cancelled after certain time lapse
 
-- Software
 
-  - Android Studio
+## Components
 
-- Hardware
+Hardware components
+•	RaspberryPi
+•	IR Sensors
 
-  - RaspberryPi
-  - IR Sensors
+
+Software components
+•	Android Studio
+•	Android Device to deploy/install the application
+
   
  ## Automated-Parking-System
  To view demo of application click on [YouTube/Automated-Parking-System](https://www.youtube.com/watch?v=jnc7pJVHnps&feature=youtu.be).
